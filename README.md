@@ -8,11 +8,12 @@ In the first section, we resampled data utilizng three different methods (Random
 - Naive Random Oversampling: 0.640324421824783
 - SMOTE : 0.6514992150524688
 - Undersampling : 0.5447046721744204
-![imgage](xxx)
+
+![imgage](https://github.com/ejyongc/Credit_Risk_Analysis/blob/main/Images/SMOTE%20Oversampling.png)
 
 In addition to the tests above, we also applied a combination of our over and undersampling methods (SMOOTEENN) to determine if we have a better credit risk prediction. The results once again showed that the SMOTE oversampling method is the most accurate. 
 
-![image](xxx)
+![image](https://github.com/ejyongc/Credit_Risk_Analysis/blob/main/Images/SMOOTEENN.png)
 
 From the results of this analysis we can identify that the *SMOTE Oversampling* method is the most accurate with a 65% accuracy score among the four resampling methods we utilized. 
 
@@ -20,7 +21,7 @@ In addition to the four ML methods applied above, we ran two ensemble algorithm 
 - Balanced Random Forest Classifier: 0.7885466545953005
 - Easy Ensemble AdaBoost Classifier: 0.9316600714093861
 
-![image](xxx)
+![image](https://github.com/ejyongc/Credit_Risk_Analysis/blob/main/Images/Balanced%20Random%20Forest%20Classifier.png)
 
 From the imbalanced classification reports we can see that the *Easy Ensemble ADABoost Classifier* has a high *acuracy* (93%), high *prediction* (94%), and *F1* (97%)
 
@@ -28,4 +29,4 @@ From the imbalanced classification reports we can see that the *Easy Ensemble AD
 
 From the results of the machine learning models we tested above, we can conlude that the *Easy Ensemble AdaBoost Classifier* would be the recommended ML model to predict credit risk. Unlike the other methods we tested, this method has the highest *accuracy*, *prediction*, *recall*, and *F1* scores. Although the precision on *high-risk* predictions is low, the sensitivity allows us to flag high-risk credits.  
 
-![image](xxx)
+![image](https://github.com/ejyongc/Credit_Risk_Analysis/blob/main/Images/Easy%20Ensemble%20AdaBoost%20Classifier.png)
